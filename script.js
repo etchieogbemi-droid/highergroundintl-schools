@@ -206,52 +206,52 @@ document.addEventListener("DOMContentLoaded", function () {
         const slides = [
 
             {
-                src: "public/school-life-01.jpg",
+                src: "school-life-01.jpg",
                 caption: "Our School Community"
             },
 
             {
-                src: "public/school-life-02.jpg",
+                src: "school-life-02.jpg",
                 caption: "Learning and Growing Together"
             },
 
             {
-                src: "public/school-life-03.jpg",
+                src: "school-life-03.jpg",
                 caption: "A Place to Learn"
             },
 
             {
-                src: "public/school-life-04.jpg",
+                src: "school-life-04.jpg",
                 caption: "Developing Future Leaders"
             },
 
             {
-                src: "public/school-life-05.jpg",
+                src: "school-life-05.jpg",
                 caption: "Encouraging Curiosity"
             },
 
             {
-                src: "public/school-life-06.jpg",
+                src: "school-life-06.jpg",
                 caption: "Building Confidence"
             },
 
             {
-                src: "public/school-life-07.jpg",
+                src: "school-life-07.jpg",
                 caption: "Growing Through Education"
             },
 
             {
-                src: "public/school-life-08.jpg",
+                src: "school-life-08.jpg",
                 caption: "A Community of Learners"
             },
 
             {
-                src: "public/school-life-09.jpg",
+                src: "school-life-09.jpg",
                 caption: "Preparing for Greater Heights"
             },
 
             {
-                src: "public/school-life-10.jpg",
+                src: "school-life-10.jpg",
                 caption: "Mentoring Future Leaders"
             }
 
