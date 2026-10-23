@@ -1532,3 +1532,15 @@ textarea:focus-visible {
     }
 
 }
+/* Blue school homepage header */
+header {
+background-color: #003366;
+color: #ffffff;
+}
+
+header h1,
+header h2,
+header p,
+header a {
+color: #ffffff;
+}
