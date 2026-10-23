@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Higher Ground Int'l Schools | Uzuakoli, Abia State</title>
+
+    <meta
+        name="description"
+        content="Welcome to Higher Ground International Schools, Uzuakoli, Abia State. Mentoring future leaders for greater heights."
+    >
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+
+        <a href="index.html" class="brand">
+            <img
+                src="public/school-logo.png"
+                alt="Higher Ground International Schools logo"
+                class="school-logo"
+            >
+
+            <span class="brand-text">
+                <strong>HIGHER GROUND</strong>
+                <small>INT'L SCHOOLS</small>
+            </span>
+        </a>
+
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="main-navigation"
+        >
+            ☰
+        </button>
+
+        <nav class="main-navigation" id="main-navigation">
+
+            <a href="index.html" class="nav-link active">Home</a>
+
+            <div class="dropdown">
+                <button
+                    class="dropdown-toggle"
+                    type="button"
+                    aria-expanded="false"
+                >
+                    Explore School <span class="dropdown-arrow">▾</span>
+                </button>
+
+                <div class="dropdown-menu">
+                    <a href="school.html">Classes &amp; Subjects</a>
+                    <a href="admission.html">Admissions</a>
+                </div>
+            </div>
+
+            <a href="admission.html" class="nav-cta">
+                Apply for Admission
+            </a>
+
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <span class="eyebrow">WELCOME TO HIGHER GROUND</span>
+
+            <h1>
+                Building Bright Minds.<br>
+                <span>Inspiring Greater Heights.</span>
+            </h1>
+
+            <p class="hero-motto">
+                Mentoring future leaders for greater heights.
+            </p>
+
+            <p class="hero-description">
+                A school community dedicated to learning, personal growth,
+                discipline and the development of future leaders.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="admission.html" class="button button-red">
+                    Enquire About Admission
+                </a>
+
+                <a href="school.html" class="button button-outline">
+                    Explore Our School
+                </a>
+            </div>
+
+            <div class="hero-location">
+                <span>📍</span>
+                Km 6 Umuahia-Uzuakoli-Ohafia Express Road,
+                Uzuakoli, Abia State.
+            </div>
+
+        </div>
+
+        <div class="hero-image-wrapper">
+
+            <img
+                src="public/hero-school.jpg"
+                alt="Higher Ground International Schools"
+                class="hero-image"
+                onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');"
+            >
+
+            <div class="hero-image-caption">
+                <span class="caption-dot"></span>
+                Learning today. Leading tomorrow.
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- WELCOME SECTION -->
+
+    <section class="section welcome-section">
+
+        <div class="section-heading">
+            <span class="eyebrow">OUR SCHOOL</span>
+
+            <h2>A Foundation for <span>Greater Heights</span></h2>
+
+            <p>
+                At Higher Ground Int'l Schools, our name reflects our aspiration:
+                to encourage every learner to grow in knowledge, character
+                and confidence.
+            </p>
+        </div>
+
+        <div class="feature-grid">
+
+            <article class="feature-card">
+                <div class="feature-icon">📚</div>
+
+                <h3>Quality Learning</h3>
+
+                <p>
+                    Encourage curiosity, understanding and a strong foundation
+                    for academic progress.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">🌱</div>
+
+                <h3>Character Development</h3>
+
+                <p>
+                    Promote discipline, responsibility, respect and positive
+                    relationships.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">⭐</div>
+
+                <h3>Future Leadership</h3>
+
+                <p>
+                    Encourage learners to develop confidence, creativity and
+                    the desire to achieve meaningful goals.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- SCHOOL GALLERY / SLIDESHOW -->
+
+    <section class="gallery-section">
+
+        <div class="section-heading">
+            <span class="eyebrow">OUR SCHOOL GALLERY</span>
+
+            <h2>Life at <span>Higher Ground</span></h2>
+
+            <p>
+                Explore moments from our school environment and learning
+                community.
+            </p>
+        </div>
+
+        <div class="slideshow-container">
+
+            <div class="slideshow">
+
+                <img
+                    id="slideshow-image"
+                    src="public/school-life-01.jpg"
+                    alt="School gallery photograph"
+                >
+
+                <div class="slide-overlay">
+                    <span id="slide-caption">Our School Community</span>
+                </div>
+
+                <button
+                    class="slide-arrow slide-prev"
+                    type="button"
+                    aria-label="Previous picture"
+                >
+                    &#10094;
+                </button>
+
+                <button
+                    class="slide-arrow slide-next"
+                    type="button"
+                    aria-label="Next picture"
+                >
+                    &#10095;
+                </button>
+
+            </div>
+
+            <div class="slide-controls">
+
+                <div
+                    class="slide-dots"
+                    id="slide-dots"
+                    aria-label="Choose a gallery picture"
+                ></div>
+
+                <span id="slide-counter">1 / 10</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ADMISSION CALL TO ACTION -->
+
+    <section class="admission-banner">
+
+        <div>
+            <span class="eyebrow light-eyebrow">TAKE THE NEXT STEP</span>
+
+            <h2>Give Your Child a Foundation for the Future.</h2>
+
+            <p>
+                Contact Higher Ground Int'l Schools to enquire about admission
+                and the classes available.
+            </p>
+        </div>
+
+        <a href="admission.html" class="button button-white">
+            Start an Enquiry
+        </a>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+
+    <section class="section contact-section" id="contact">
+
+        <div class="section-heading">
+            <span class="eyebrow">GET IN TOUCH</span>
+
+            <h2>We Would Love to <span>Hear from You</span></h2>
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+                <div class="contact-icon">📍</div>
+
+                <h3>Visit Us</h3>
+
+                <p>
+                    Km 6 Umuahia-Uzuakoli-Ohafia Express Road,
+                    Uzuakoli, Abia State.
+                </p>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">📞</div>
+
+                <h3>Call Us</h3>
+
+                <a href="tel:+2347060961588">
+                    07060961588
+                </a>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">✉️</div>
+
+                <h3>Email Us</h3>
+
+                <a href="mailto:etchieogbemi@gmail.com">
+                    etchieogbemi@gmail.com
+                </a>
+            </div>
+
+        </div>
+
+        <div class="contact-actions">
+
+            <a
+                href="https://wa.me/2347060961588"
+                class="button button-green"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Chat with Us on WhatsApp
+            </a>
+
+            <a
+                href="mailto:etchieogbemi@gmail.com"
+                class="button button-blue"
+            >
+                Send an Email
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer class="site-footer">
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <strong>HIGHER GROUND INT'L SCHOOLS</strong>
+
+            <p>
+                Mentoring future leaders for greater heights.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <a href="index.html">Home</a>
+            <a href="school.html">Classes &amp; Subjects</a>
+            <a href="admission.html">Admissions</a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            &copy; <span id="current-year"></span>
+            Higher Ground Int'l Schools. All rights reserved.
+        </p>
+    </div>
+
+</footer>
+
+</body>
+</html>
