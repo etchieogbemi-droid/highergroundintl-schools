@@ -120,10 +120,10 @@ section {
 }
 
 .school-logo {
-    width: 58px;
-    height: 58px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .brand-text {
@@ -134,13 +134,13 @@ section {
 
 .brand-text strong {
     color: var(--blue);
-    font-size: 0.98rem;
+    font-size: 1.5rem;
     letter-spacing: 0.5px;
 }
 
 .brand-text small {
     color: var(--red);
-    font-size: 0.8rem;
+    font-size: 0.98rem;
     font-weight: 800;
     letter-spacing: 2px;
 }
